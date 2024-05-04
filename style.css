@@ -1,0 +1,147 @@
+
+html{font-family: Arial, Helvetica, sans-serif;}
+
+body{margin: 0;
+     background-color: aquamarine;
+}
+
+
+.img-link>img{height: 80px;
+    width: 80px;
+    position: inherit;
+}
+.img-link{position: fixed;
+  right: 110px;
+  top: 800px;
+}
+.img-link:hover{background-color: #333;}
+.nav{background-color: #333;}
+.nav>ul{list-style: none;
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+
+}
+.nav>ul>li{float: left;}
+
+ .nav>ul>li a{display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+ li a:hover{background-color: #111111;
+            
+            
+}
+.ikon{width: 140px;
+      height: 140px;
+      background-color: #f0eaea;
+      border: 1px solid;
+      position: relative;
+      left: 20px;
+      margin-top: 80px;
+      padding: 40px;
+      padding-bottom: 300px;
+      padding-right: 110px;
+      
+}
+
+
+
+.img-link>img:hover{background-color: #c1c1c1;}
+ 
+
+
+
+
+.ikon > img{width: 120px;
+            height: 120px;
+            padding: 10px;
+             
+}
+
+.ikon > h3 {top: 5px;
+            position: absolute;
+            left: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+}
+.ikon>ul{display: block;
+         width: 120px;
+         right: 65px;
+         position: relative;
+}
+.ikon>ul>li{background-color: #f0eaea;
+            display: block;
+            width: 273px;
+            line-height: 1cm;
+}
+
+ @media screen and (min-width:768px){
+  .img-link{position: absolute;
+                                               
+                              }
+
+  .img-link>img:hover{background-color: #c1c1c1;}
+ }
+
+
+ form{display: block;
+      width: 300px;
+      box-shadow: 0 0 4px;
+      position:absolute;
+      left: 20px;
+      top: 800px;
+      padding-left: 25px;
+      padding-bottom: 40px;
+      border-radius: 7px;
+      background: #ffffff;
+      color:black;
+    
+      
+}
+
+form>label{line-height: 1.4cm;}
+
+form>h2{text-align: center;}
+
+form>button{display: block;
+            margin-left: 80px;
+            padding: 5px 65px;
+            color: white;
+            background-color: rgb(0, 249, 249);
+            border:none ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-top:19px ;
+}
+
+form>input{border: none;
+          border-radius: 0;
+          padding: 6px 12px;
+          background-color: #f4f4f4;
+          outline: none;
+}
+
+form>button:hover{background-color: rgb(132, 234, 234);
+                  color: #c1c1c1;
+}
+
+
+
+
+table{position:absolute;
+      bottom: -400px;
+      left: 8px;
+      background-color: white;
+      z-index: -1;
+}
+
+table,th,td{border: 1px solid;
+             border-collapse: collapse;
+             padding: 10px 5px;
+}
+
+caption{font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+}
